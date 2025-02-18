@@ -7,7 +7,6 @@ import java.lang.StringBuilder;
 public class Exercise_1 {
 	public static void main(String[] args) {
 		int N = 10;
-		StringBuilder s = new StringBuilder();
 		StringBuilder stringBuilder = new StringBuilder();
 		for (int n = N; n > 0; n /= 2) {
 			System.out.println("Current n: " + n);
